@@ -10,7 +10,7 @@ A personal portfolio website showcasing my development projects, hackathon work,
 
 ## Live Demo
 
-[View Portfolio](https://your-vercel-url.vercel.app)
+[View Portfolio](https://subhashini-konda-portfolio.vercel.app/)
 
 
 ## Highlights

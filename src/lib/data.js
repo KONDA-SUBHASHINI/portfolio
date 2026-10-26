@@ -606,9 +606,9 @@ export const featuredProjects = [
       "Everything — visual design, component architecture, the data-driven content layer, and this very case study you're reading.",
     stack: ["React", "Vite", "Tailwind CSS", "React Router", "Lucide Icons"],
     status: "Completed",
-    screenshot: "/screenshots/portfolio-home.jpeg", // TODO: set to "/screenshots/portfolio-home.jpeg" once you add the image
-    live: "", // TODO: paste your Vercel deploy URL here later
-    github: "", // TODO: paste your GitHub repo URL here later
+    screenshot: "/screenshots/portfolio-home.jpeg", 
+    live: "https://subhashini-konda-portfolio.vercel.app/", 
+    github: "https://github.com/KONDA-SUBHASHINI/portfolio", 
   },
   {
     slug: "gmail-auto-labeller",
