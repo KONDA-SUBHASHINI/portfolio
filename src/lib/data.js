@@ -831,9 +831,9 @@ export const beyondCode = [
 
 export const codingProfiles = [
   // TODO 8: your real profile URLs
-  { label: "LeetCode", url: "https://leetcode.com/your-username" },
-  { label: "CodeChef", url: "https://www.codechef.com/users/your-username" },
-  { label: "GeeksforGeeks", url: "https://www.geeksforgeeks.org/user/your-username" },
+  { label: "LeetCode", url: "https://leetcode.com/u/KONDA_SUBHASHINI/" },
+  { label: "CodeChef", url: "https://www.codechef.com/users/subhashini_5u8" },
+  { label: "GeeksforGeeks", url: "https://www.geeksforgeeks.org/profile/249x5a0cj4f" },
 ];
 
 // ---- Beyond Code: athletics medals (certificates available for all) ----
