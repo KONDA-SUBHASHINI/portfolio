@@ -22,6 +22,7 @@ function ArrowIcon() {
 }
 
 export default function Skills() {
+  console.log("Coding Profiles:", codingProfiles);
   return (
     <section id="skills" className="bg-biscuit px-4 py-20 sm:px-6">
       <div className="mx-auto max-w-6xl">
@@ -76,7 +77,7 @@ export default function Skills() {
 
           <div className="mt-8 grid gap-4 sm:grid-cols-3">
             {codingProfiles.map((p, i) => (
-              <Reveal key={p.platform} delay={i * 80}>
+              <Reveal key={p.label} delay={i * 80}>
                 <a
                   href={p.url}
                   target="_blank"
@@ -88,11 +89,11 @@ export default function Skills() {
                       className="flex h-12 w-12 items-center justify-center rounded-xl font-heading text-xl font-bold"
                       style={{ backgroundColor: `${p.accent}1A`, color: p.accent }}
                     >
-                      {p.platform.charAt(0)}
+                      {p.label.charAt(0)}
                     </span>
                     <div>
                       <p className="font-heading font-semibold text-zinc-900">
-                        {p.platform}
+                        {p.label}
                       </p>
                       <p className="text-xs font-medium text-zinc-500">
                         @{p.username}
