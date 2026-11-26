@@ -51,13 +51,17 @@ export default function Contact() {
             <div className="mt-10 flex flex-wrap items-center justify-center gap-2">
               {codingProfiles.map((c) => (
                 <a
-                  key={c.label}
+                  key={c.platform}
                   href={c.url}
                   target="_blank"
                   rel="noreferrer"
-                  className="rounded-full border border-zinc-300 bg-white px-4 py-1.5 text-sm font-medium text-zinc-600 transition hover:border-accent hover:text-accent"
+                  className="inline-flex items-center gap-2 rounded-full border border-zinc-300 bg-white px-4 py-1.5 text-sm font-medium text-zinc-600 transition hover:border-accent hover:text-accent"
                 >
-                  {c.label}
+                  <span
+                    className="h-2 w-2 rounded-full"
+                    style={{ backgroundColor: c.accent }}
+                  />
+                  {c.platform}
                 </a>
               ))}
             </div>
